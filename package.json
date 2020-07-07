@@ -1,0 +1,32 @@
+{
+  "name": "itsn",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node LTS",
+  "main": "index.js",
+  "bin": {
+    "ltsn": "./bin/Itsn.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiChaoMing/ltsn.git"
+  },
+  "keywords": [
+    "Node",
+    "LTS"
+  ],
+  "author": "xichaoming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XiChaoMing/ltsn/issues"
+  },
+  "homepage": "https://github.com/XiChaoMing/ltsn#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.6.0"
+  }
+}
